@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Finish UI dashboard",
+    "description": "Complete desktop adaptive layout",
+    "dueDate": "2026-05-20",
+    "priority": "high",
+    "completed": false,
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "title": "Connect login API",
+    "description": "Setup authentication endpoint",
+    "dueDate": "2026-05-21",
+    "priority": "medium",
+    "completed": false,
+    "userId": 1
+  },
+  {
+    "id": 3,
+    "title": "Review tasks",
+    "description": "Check completed items",
+    "dueDate": "2026-05-19",
+    "priority": "low",
+    "completed": true,
+    "userId": 2
+  }
+]
