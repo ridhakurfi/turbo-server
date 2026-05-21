@@ -1,0 +1,92 @@
+[
+    {
+        "id": 4,
+        "title": "Walk the dog",
+        "description": "Take Bruno for an evening walk",
+        "dueDate": "2026-05-20",
+        "priority": "low",
+        "completed": false,
+        "userId": 2
+    },
+    {
+        "id": 5,
+        "title": "Buy groceries",
+        "description": "Milk, eggs, vegetables, and snacks",
+        "dueDate": "2026-05-22",
+        "priority": "medium",
+        "completed": false,
+        "userId": 1
+    },
+    {
+        "id": 6,
+        "title": "Gym workout",
+        "description": "Complete 1 hour cardio session",
+        "dueDate": "2026-05-20",
+        "priority": "medium",
+        "completed": false,
+        "userId": 3
+    },
+    {
+        "id": 7,
+        "title": "Call mom",
+        "description": "Check in and discuss weekend plans",
+        "dueDate": "2026-05-21",
+        "priority": "high",
+        "completed": false,
+        "userId": 2
+    },
+    {
+        "id": 8,
+        "title": "Read a book",
+        "description": "Finish two chapters of current novel",
+        "dueDate": "2026-05-23",
+        "priority": "low",
+        "completed": false,
+        "userId": 3
+    },
+    {
+        "id": 9,
+        "title": "Clean workspace",
+        "description": "Organize desk and remove clutter",
+        "dueDate": "2026-05-20",
+        "priority": "medium",
+        "completed": true,
+        "userId": 1
+    },
+    {
+        "id": 1,
+        "username": "Hasbi",
+        "email": "tothefray@example.com",
+        "password": "hasbiganbate"
+    },
+    {
+        "id": 2,
+        "username": "Sarah",
+        "email": "sarah@example.com",
+        "password": "sarahnochill"
+    },
+    {
+        "id": 3,
+        "username": "Daniel",
+        "email": "daniel.codes@example.com",
+        "password": "danieldev123"
+    },
+    {
+        "id": 4,
+        "username": "Maya",
+        "email": "maya.sun@example.com",
+        "password": "mayaontop"
+    },
+    {
+        "id": 5,
+        "username": "Rizky",
+        "email": "rizky.id@example.com",
+        "password": "rizkygaming"
+    },
+    {
+        "id": 6,
+        "username": "Clara",
+        "email": "clara@example.com",
+        "password": "claramood"
+    }
+]

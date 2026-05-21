@@ -6,6 +6,12 @@ const errorNet = (err, req, res, next) => {
     case "IdNotFound":
       res.status(404).json({ message: "Item not found" });
       break;
+    case "WrongPass":
+      res.status(401).json({ message: "Invalid Username of Pass" });
+      break;
+    case "Unauthorized":
+      res.status(401).json({ message: "Please login to continue" });
+      break;
     default:
       console.log(err);
       res.status(500).json({ message: "Internal Error in Handler" });
@@ -13,4 +19,4 @@ const errorNet = (err, req, res, next) => {
   }
 };
 
-module.exports = {errorNet}
+module.exports = { errorNet };
