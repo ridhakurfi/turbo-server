@@ -13,7 +13,7 @@ class Controller {
   }
   static async findAllByUser(req, res, next) {
     try {
-      const  userId  = req.us;
+      const userId = req.us;
       const items = await Task.findAll({
         where: {
           userId,
@@ -35,8 +35,21 @@ class Controller {
   }
   static async create(req, res, next) {
     try {
-      const item = await Task.create(req.body);
-      res.status(201).json({ message: "Added succesfully", data: item });
+      const { title, description, dueDate, priority, completed } = req.body;
+
+      const item = await Task.create({
+        title,
+        description,
+        dueDate,
+        priority,
+        completed,
+        userId: req.us,
+      });
+
+      res.status(201).json({
+        message: "Added successfully",
+        data: item,
+      });
     } catch (error) {
       next(error);
     }

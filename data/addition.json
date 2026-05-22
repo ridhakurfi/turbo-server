@@ -75,7 +75,7 @@
         "id": 4,
         "username": "Maya",
         "email": "maya.sun@example.com",
-        "password": "mayaontop"
+        "password": "mayaonrise"
     },
     {
         "id": 5,
@@ -88,5 +88,65 @@
         "username": "Clara",
         "email": "clara@example.com",
         "password": "claramood"
+    },
+    {
+        "id": 7,
+        "username": "Daniel",
+        "email": "daniel@example.com",
+        "password": "danielpass"
+    },
+    {
+        "id": 8,
+        "username": "Emma",
+        "email": "emma@example.com",
+        "password": "emmastar"
+    },
+    {
+        "id": 9,
+        "username": "Farhan",
+        "email": "farhan@example.com",
+        "password": "farhan123"
+    },
+    {
+        "id": 10,
+        "username": "Grace",
+        "email": "grace@example.com",
+        "password": "gracejoy"
+    },
+    {
+        "id": 11,
+        "username": "Henry",
+        "email": "henry@example.com",
+        "password": "henrycode"
+    },
+    {
+        "id": 12,
+        "username": "Isabella",
+        "email": "isabella@example.com",
+        "password": "bella456"
+    },
+    {
+        "id": 13,
+        "username": "Jason",
+        "email": "jason@example.com",
+        "password": "jasonrocks"
+    },
+    {
+        "id": 14,
+        "username": "Kelly",
+        "email": "kelly@example.com",
+        "password": "kellymoon"
+    },
+    {
+        "id": 15,
+        "username": "Leo",
+        "email": "leo@example.com",
+        "password": "leoking"
+    },
+    {
+        "id": 16,
+        "username": "Mia",
+        "email": "mia@example.com",
+        "password": "miadream"
     }
 ]
