@@ -4,7 +4,6 @@ const { errorNet } = require("../middlewares/errorhandler");
 const { authentification } = require("../middlewares/authentication");
 const router = express.Router();
 
-
 router.post("/register", Controller.register);
 router.post("/login", Controller.login)
 router.get("/items", Controller.findAll)
