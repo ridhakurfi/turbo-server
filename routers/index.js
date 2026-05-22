@@ -8,6 +8,7 @@ router.post("/register", Controller.register);
 router.post("/login", Controller.login)
 router.get("/items", Controller.findAll)
 router.use(authentification)
+
 router.get("/tasks", Controller.findAllByUser)
 router.get("/items/:id", Controller.findOne)
 router.post("/items", Controller.create)
