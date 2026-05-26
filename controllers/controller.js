@@ -29,8 +29,8 @@ class Controller {
       const item = await Task.findByPk(req.params.id);
       if (!item) throw { name: "IdNotFound" };
       res.status(200).json(item);
-    } catch (error) {
-      next(error);
+    } catch (err) {
+      next(err);
     }
   }
   static async create(req, res, next) {
